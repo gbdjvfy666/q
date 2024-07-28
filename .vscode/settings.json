@@ -1,0 +1,31 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "html": "html",
+        "vue-html": "html",
+        "razor": "html",
+        "plaintext": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "html": {
+            "self_closing_tag": true
+        }
+    },
+    "editor.snippetSuggestions": "top",
+    "emmet.showSuggestionsAsSnippets": true
+}
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "html": "html",
+        "vue-html": "html",
+        "razor": "html",
+        "plaintext": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "editor.snippetSuggestions": "top",
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.showAbbreviationSuggestions": true,
+    "emmet.suggestions.expand": "always"
+}

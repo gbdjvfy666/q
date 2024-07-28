@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header, main, footer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #3b8dbd;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Стили для collapsible block */
+.collapsible {
+    background-color: #099aee;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+.active, .collapsible:hover {
+    background-color: #1f53b4;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Стили для skillbar */
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.skillbar-bar {
+    height: 100%;
+    background: #01b4eb;
+    border-radius: 3px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    color: #fff;
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 20px;
+    }
+
+    section {
+        grid-column: span 2;
+    }
+
+    #about {
+        grid-column: span 2;
+    }
+
+    #contact {
+        grid-column: span 1;
+    }
+}
